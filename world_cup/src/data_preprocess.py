@@ -9,8 +9,12 @@ def load_teams(filepath: str):
     return np.loadtxt(filepath, dtype=str)
 
 
+def get_teams():
+    return load_teams(SPI)
+
+
 def transformed_prior_scores(
-    teams,
+    teams: np.ndarray,
 ):
     raw_prior_score = np.arange(len(teams), 0, -1)
     prior_score = (raw_prior_score - np.mean(raw_prior_score)) / (
@@ -19,7 +23,7 @@ def transformed_prior_scores(
     return prior_score
 
 
-def get_ranking_dict(teams):
+def get_ranking_dict(teams: np.ndarray):
     return {k: v for k, v in zip(teams, range(1, len(teams) + 1))}
 
 
@@ -29,12 +33,17 @@ def load_score_data(filepath: str):
     return data
 
 
-def team_1_fave_mask(df):
+def team_1_fave_mask(df: pd.DataFrame):
     return df["team_1_rank"].values < df["team_2_rank"].values
 
 
 def create_cols(
-    df, team_1_fave_mask, t1_col, t2_col, fave_name, underdog_name
+    df: pd.DataFrame,
+    team_1_fave_mask: np.ndarray,
+    t1_col: str,
+    t2_col: str,
+    fave_name: str,
+    underdog_name: str,
 ):
     df[fave_name] = df.loc[team_1_fave_mask, t1_col]
     df.loc[~team_1_fave_mask, fave_name] = df.loc[~team_1_fave_mask, t2_col]
@@ -43,7 +52,7 @@ def create_cols(
 
 
 def get_data():
-    teams = load_teams(SPI)
+    teams = get_teams()
     ranking_dict = get_ranking_dict(teams)
     df = load_score_data(DP)
 
@@ -79,5 +88,5 @@ def get_data():
 
 
 def get_prior_scores():
-    teams = load_teams(SPI)
+    teams = get_teams()
     return transformed_prior_scores(teams)
