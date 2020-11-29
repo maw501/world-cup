@@ -33,6 +33,10 @@ Notebooks are located in the `world_cup/notebooks` directory.
 * `model_overview.ipynb`: an explanation of the model. 
 * `fit_model.ipynb`: fits the model on a linear scale per Gelman.
 
+
+![Image](resources/teams.png)
+
+
 ### TODO
 
 * Prior predictive checking
