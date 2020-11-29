@@ -22,6 +22,10 @@
 ### Overview
 Repository containing Python and Stan code to run [Gelman's](https://statmodeling.stat.columbia.edu/2014/07/13/stan-analyzes-world-cup-data/) simple world cup model from 2014.
 
+**Example of team quality estimated by the Bayesian model:**
+
+![Image](resources/teams.png)
+
 ### Getting started
 
 Aside from standard data science packages the main dependencies are [PyStan](https://pystan.readthedocs.io/en/latest/) and [ArviZ](https://arviz-devs.github.io/arviz/).
@@ -32,9 +36,6 @@ Notebooks are located in the `world_cup/notebooks` directory.
 
 * `model_overview.ipynb`: an explanation of the model. 
 * `fit_model.ipynb`: fits the model on a linear scale per Gelman.
-
-
-![Image](resources/teams.png)
 
 
 ### TODO
