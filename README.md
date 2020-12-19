@@ -6,11 +6,6 @@
     <img src="https://img.shields.io/pypi/pyversions/fastai.svg"
       alt="Python version" />
   </a>
-  <!--Project status -->
-  <a href="https://github.com/maw501/world_cup">
-    <img src="https://img.shields.io/badge/Status-Under%20development-green.svg"
-      alt="Status version" />
-  </a>
   <!--Commits  -->
   <a href="https://github.com/maw501/world_cup/commits/master">
     <img src="https://img.shields.io/github/last-commit/maw501/world_cup.svg"
