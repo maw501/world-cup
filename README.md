@@ -32,7 +32,7 @@ Aside from standard data science packages the main dependencies are [PyStan](htt
 
 ### Notebooks
 
-Notebooks are located in the `world_cup/notebooks` directory.
+There are two notebooks:
 
-* `model_overview.ipynb`: a brief explanation of the model. 
-* `fit_model.ipynb`: fits the model on a linear scale per Gelman.
+* [`model_overview.ipynb`](world_cup/notebooks/model_overview.ipynb): a brief explanation of the model. 
+* [`fit_model.ipynb`](world_cup/notebooks/fit_model.ipynb): fits the model on a linear scale per Gelman.
