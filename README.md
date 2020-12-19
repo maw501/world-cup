@@ -34,12 +34,5 @@ Aside from standard data science packages the main dependencies are [PyStan](htt
 
 Notebooks are located in the `world_cup/notebooks` directory.
 
-* `model_overview.ipynb`: an explanation of the model. 
+* `model_overview.ipynb`: a brief explanation of the model. 
 * `fit_model.ipynb`: fits the model on a linear scale per Gelman.
-
-
-### TODO
-
-* Prior predictive checking
-* Posterior predictive checking
-* Model checking
