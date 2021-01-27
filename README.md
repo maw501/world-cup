@@ -29,5 +29,5 @@ Aside from standard data science packages the main dependencies are [PyStan](htt
 
 There are two notebooks:
 
-* [`model_overview.ipynb`](https://nbviewer.jupyter.org/github/maw501/world-cup//blob/main/world_cup/notebooks/model_overview.ipynb): a brief explanation of the model. 
-* [`fit_model.ipynb`](https://nbviewer.jupyter.org/github/maw501/world-cup//blob/main/world_cup/notebooks/fit_model.ipynb): fits the model on a linear scale per Gelman.
+* [`model_overview.ipynb`](https://nbviewer.jupyter.org/github.com/maw501/world-cup/blob/master/world_cup/notebooks/model_overview.ipynb): a brief explanation of the model. 
+* [`fit_model.ipynb`](https://nbviewer.jupyter.org/github.com/maw501/world-cup/blob/master/world_cup/notebooks/fit_model.ipynb): fits the model on a linear scale per Gelman.
