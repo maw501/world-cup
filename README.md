@@ -2,8 +2,8 @@
 
 <div align="center">
   <!--Python version -->
-  <a href="https://www.python.org/downloads/release/python-360/">
-    <img src="https://img.shields.io/pypi/pyversions/fastai.svg"
+  <a href="https://www.python.org/downloads/release/python-380/">
+    <img src="https://https://img.shields.io/badge/python-3.8-blue.svg"
       alt="Python version" />
   </a>
   <!--Commits  -->
@@ -23,7 +23,20 @@ Repository containing Python and Stan code to run [Gelman's](https://statmodelin
 
 ### Getting started
 
-Aside from standard data science packages the main dependencies are [PyStan](https://pystan.readthedocs.io/en/latest/) and [ArviZ](https://arviz-devs.github.io/arviz/).
+Clone the repository then create the conda environment:
+
+```
+git clone https://github.com/maw501/world-cup.git
+cd world_cup
+conda env create -f environment.yml
+```
+
+In order to use the conda environment in a notebook run:
+
+```
+python -m ipykernel install --user --name=world_cup
+```
+
 
 ### Notebooks
 
