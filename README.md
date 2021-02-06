@@ -19,7 +19,7 @@ Repository containing Python and Stan code to run [Gelman's](https://statmodelin
 
 **Example of relative team quality estimated by the Bayesian model**
 
-<img src="resources/teams.png" alt="centered image" width="500"/>
+<img src="resources/teams.png" align = "middle" alt="centered image" width="500"/>
 
 
 ### Getting started
