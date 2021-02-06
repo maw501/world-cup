@@ -3,7 +3,7 @@
 <div align="center">
   <!--Python version -->
   <a href="https://www.python.org/downloads/release/python-380/">
-    <img src="https://https://img.shields.io/badge/python-3.8-blue.svg"
+    <img src="https://img.shields.io/badge/python-3.8-blue.svg"
       alt="Python version" />
   </a>
   <!--Commits  -->
