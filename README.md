@@ -17,9 +17,9 @@
 ### Overview
 Repository containing Python and Stan code to run [Gelman's](https://statmodeling.stat.columbia.edu/2014/07/13/stan-analyzes-world-cup-data/) simple world cup model from 2014.
 
-**Example of relative team quality estimated by the Bayesian model:**
+**Example of relative team quality estimated by the Bayesian model**
 
-<img src="resources/teams.png" alt="drawing" width="500"/>
+<img src="resources/teams.png" alt="centered image" width="500"/>
 
 
 ### Getting started
