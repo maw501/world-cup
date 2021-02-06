@@ -26,7 +26,7 @@ Repository containing Python and Stan code to run [Gelman's](https://statmodelin
 Clone the repository then create the conda environment:
 
 ```
-git clone https://github.com/maw501/world-cup.git
+git clone git@github.com:maw501/world-cup.git
 cd world_cup
 conda env create -f environment.yml
 ```
