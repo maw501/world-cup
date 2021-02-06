@@ -17,9 +17,9 @@
 ### Overview
 Repository containing Python and Stan code to run [Gelman's](https://statmodeling.stat.columbia.edu/2014/07/13/stan-analyzes-world-cup-data/) simple world cup model from 2014.
 
-**Example of team quality estimated by the Bayesian model:**
+**Example of relative team quality estimated by the Bayesian model:**
 
-![Image](resources/teams.png)
+![Image](resources/teams.png =250x)
 
 ### Getting started
 
@@ -37,6 +37,7 @@ In order to use the conda environment in a notebook run:
 python -m ipykernel install --user --name=world_cup
 ```
 
+<img src="resources/teams.png" alt="drawing" width="200"/>
 
 ### Notebooks
 
