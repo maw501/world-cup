@@ -19,7 +19,8 @@ Repository containing Python and Stan code to run [Gelman's](https://statmodelin
 
 **Example of relative team quality estimated by the Bayesian model:**
 
-![Image](resources/teams.png =250x)
+<img src="resources/teams.png" alt="drawing" width="500"/>
+
 
 ### Getting started
 
@@ -37,7 +38,6 @@ In order to use the conda environment in a notebook run:
 python -m ipykernel install --user --name=world_cup
 ```
 
-<img src="resources/teams.png" alt="drawing" width="200"/>
 
 ### Notebooks
 
