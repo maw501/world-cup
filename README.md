@@ -17,11 +17,6 @@
 ### Overview
 Repository containing Python and Stan code to run [Gelman's](https://statmodeling.stat.columbia.edu/2014/07/13/stan-analyzes-world-cup-data/) simple world cup model from 2014.
 
-**Example of relative team quality estimated by the Bayesian model**
-
-<img src="resources/teams.png" align = "middle" alt="centered image" width="500"/>
-
-
 ### Getting started
 
 Clone the repository then create the conda environment:
@@ -45,3 +40,7 @@ There are two notebooks:
 
 * [`model_overview.ipynb`](https://nbviewer.jupyter.org/github/maw501/world-cup/blob/master/world_cup/notebooks/model_overview.ipynb): a brief explanation of the model. 
 * [`fit_model.ipynb`](https://nbviewer.jupyter.org/github/maw501/world-cup/blob/master/world_cup/notebooks/fit_model.ipynb): fits the model on a linear scale per Gelman.
+
+### Example of relative team quality estimated by the Bayesian model
+
+<img src="resources/teams.png" align = "middle" alt="centered image" width="500"/>
